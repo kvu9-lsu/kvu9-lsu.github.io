@@ -13,5 +13,4 @@ var bridge = L.polyline([
   [30.36, -90.09]], { color: 'red' }).addTo(map1Object)
 triangle.bindPopup('Triangle shaped area in Southeast.')
 nolaMarker.bindPopup('This is New Orleans, LA.')
-brlaBox.bindPopup('A box around Baton Rouge, LA.')
 bridge.bindPopup('This is a bridge across Lake Pontchartrain in New Orleans, LA.')
