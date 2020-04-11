@@ -7,10 +7,9 @@ var triangle = L.polygon([
   [35, -88],
   [32, -82]
 ]).addTo(map1Object)
-
 var bridge = L.polyline([
   [30.02, -90.15],
   [30.36, -90.09]], { color: 'red' }).addTo(map1Object)
-triangle.bindPopup('Triangle shaped area in Southeast.')
-nolaMarker.bindPopup('This is New Orleans, LA.')
-bridge.bindPopup('This is a bridge across Lake Pontchartrain in New Orleans, LA.')
+triangle.bindPopup('Triangle shaped area in Southeastern United States')
+nolaMarker.bindPopup('New Orleans, LA')
+bridge.bindPopup('Lake Pontchartrain Causeway Bridge in New Orleans, LA')
