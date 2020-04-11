@@ -7,12 +7,7 @@ var triangle = L.polygon([
   [35, -88],
   [32, -82]
 ]).addTo(map1Object)
-var brlaBox = L.polygon([
-  [31.45, -90.17],
-  [31.45, -92.17],
-  [29.45, -92.17],
-  [29.45, -90.17]
-], { color: 'yellow' }).addTo(map1Object)
+
 var bridge = L.polyline([
   [30.02, -90.15],
   [30.36, -90.09]], { color: 'red' }).addTo(map1Object)
